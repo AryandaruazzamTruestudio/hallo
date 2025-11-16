@@ -1,0 +1,49 @@
+
+<html><head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        color: #fff;
+        text-align: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #ffd2e9, #f9a8d4);
+        overflow: hidden;
+    }
+    .bg-blur{
+        position:absolute;
+        width:450px;height:450px;
+        background:#ffb3d9;border-radius:50%;
+        filter:blur(90px);opacity:.6;
+        animation:float 9s ease-in-out infinite;
+    }
+    .bg2{background:#ff85c2;width:380px;height:380px;top:60%;left:70%;animation-delay:2s;}
+    .bg3{background:#ffc4dd;width:500px;height:500px;top:-10%;left:20%;animation-delay:4s;}
+    @keyframes float {0%,100%{transform:translateY(0);}50%{transform:translateY(-40px);}}
+    .content-box{
+        position:relative;z-index:10;padding:30px;
+        background:rgba(255,255,255,0.15);
+        border-radius:20px;backdrop-filter:blur(10px);
+        width:80%;max-width:350px;
+        box-shadow:0 8px 30px rgba(0,0,0,0.15);
+    }
+    input,button{
+        padding:10px;border:none;border-radius:10px;
+    }
+    button{background:#ff7db8;color:white;cursor:pointer;}
+</style>
+</head><body>
+<div class='bg-blur'></div><div class='bg-blur bg2'></div><div class='bg-blur bg3'></div>
+<div class='content-box'>
+<h2>Haiii 💗</h2>
+<p>Dalam dunia yang terus bergerak cepat, banyak orang mencari ruang kecil untuk bernafas dan kembali memahami arah hidup mereka. Teknologi yang semakin maju membawa banyak kemudahan, tetapi juga menuntut kita untuk lebih bijak dalam mengatur waktu, perhatian, dan energi. Karena itu, penting untuk memiliki tempat yang membantu kita tetap fokus pada hal-hal yang benar-benar berarti.
+
+Sebuah sistem yang sederhana namun fungsional dapat menjadi jembatan antara kehidupan yang sibuk dan kebutuhan untuk tetap teratur. Tidak selalu harus mewah atau penuh ornamen; terkadang, yang kita butuhkan adalah desain yang bersih, informasi yang tertata, dan pengalaman yang membuat kita merasa nyaman. Ketika sebuah tampilan dibuat dengan keseimbangan antara estetika dan kegunaan, pengguna dapat merasakan ketenangan saat mengaksesnya.</p>
+<audio autoplay loop src="music.wav"></audio>
+<button onclick="location='page3.html'">Lanjut</button>
+</div>
+</body></html>
